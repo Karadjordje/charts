@@ -63,7 +63,6 @@ $(document).ready(function() {
 	    	}
 	    	var match = item[searchKey].toString().toLowerCase().indexOf(val) === 0;
 	    	if (match) {
-	      		// found.push(item[searchKey]);
 	      		found.push({data: item[searchKey], index: i});
 	    	}
 	    	return false;
@@ -205,7 +204,6 @@ $(document).ready(function() {
 		} else {
 			pointStart = startDate;
 			arrayLength = daysBetween;
-			// Ovde treba da stavis pointStart i da generises array na osnovu daysBeetween
 		}
 
 
